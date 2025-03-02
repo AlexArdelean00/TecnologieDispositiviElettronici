@@ -1,0 +1,21 @@
+###########################################
+# Sentaurus Visual L-2016.03-SP2.
+# Tcl log file.
+#------------------------------------------
+# Date: Apr 14, 2021. 18:07:50.
+# Version: 25.0.17 (1.17)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-862.el7.x86_64.
+###########################################
+
+load_file /home/tcad/DB/2021/device/2D_diode/2D_I-V.plt
+create_plot -1d
+select_plots Plot_1
+#-> Plot_1
+#-> Plot_1
+#-> 2D_I-V
+create_curve -plot Plot_1 -dataset 2D_I-V -axisX {bottom OuterVoltage} -axisY {bottom TotalCurrent}
+#-> Curve_1
+exit 0

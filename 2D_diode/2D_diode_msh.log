@@ -1,0 +1,75 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                        Version L-2016.03-SP2                         ***
+***                        (1.14, x86_64, Linux)                         ***
+***                                                                      ***
+***                       Copyright (C) 2005-2016                        ***
+***                            Synopsys, Inc.                          ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Fri Jul 15 14:45:02 PDT 2016 on: tcadbld1
+Running on: localhost.localdomain
+Hardware type: x86_64
+OS name: Linux
+OS release: 3.10.0-862.el7.x86_64
+OS version: #1 SMP Fri Apr 20 16:44:24 UTC 2018
+Process ID: 3686
+
+Flags used: -a
+
+Factor has to be >= 1 at line 29
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  683 (tree) + 85 (boundary)
+
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (687 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+     683 points.
+    1279 elements.
+       3 regions.
+Max. connectivity = 8 located at (0.3125;1.25)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    1   6  .    9  .   34  11   1   6  33          .                     
+---------------------------------------------------------------------------------
+minAngle: 3.57633  maxAngle: 116.565
+nVerts = 683  nTris = 1279  nMats = 1
+max connectivity (tris per node): 8
+bmin: -0 -0
+bmax: 20 40
+min edgeLength: 0.15625  [near (0.390625 0.625)]
+min volume: 0.012207  max volume: 12.5  Total volume: 800
+bbox  volume: 800
+Are all boundaries on bbox? true
+=================================================================================
+Interpolating data...done.
+done.
+Saving file /home/tcad/DB/2021/device/2D__diode/2D_diode_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:    0.0985s       100%
+                       Rate of #Vertices:  6.93e+03
+                          Rate of #Edges:  1.29e+04
+                          Rate of #Faces:   1.3e+04
+                       Rate of #Elements:         0
+
+                            Time Covered:         0s         0%
+
